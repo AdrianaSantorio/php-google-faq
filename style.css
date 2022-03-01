@@ -1,0 +1,50 @@
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  margin: 10px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+/* HEADER */
+
+header {
+  border-bottom: 1px solid lightgrey;
+}
+
+#user-name {
+  background-color: #0097a7;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+#user-name a {
+  color: white;
+  font-size: 24px;
+}
+
+.ion-icon {
+  font-size: 2em;
+}
+
+nav li {
+  list-style-type: none;
+  border-bottom: 2px solid transparent;
+  padding: 10px 0;
+  margin: 0 10px;
+}
+
+nav li:hover {
+  color: #3367d6;
+  border-bottom: 2px solid #3367d6;
+}
